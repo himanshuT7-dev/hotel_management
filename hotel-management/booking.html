@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="components/navbar.js" defer></script>
+    
+  <meta charset="UTF-8">
+  <title>Booking Confirmation</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .confirmation-container {
+      max-width: 600px;
+      margin: 80px auto;
+      padding: 40px;
+      background-color: #ffffff;
+      border-radius: 14px;
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+      text-align: center;
+    }
+
+    .confirmation-container h2 {
+      color: #28a745;
+      margin-bottom: 20px;
+    }
+
+    .confirmation-container p {
+      font-size: 18px;
+      color: #444;
+      margin: 10px 0;
+    }
+
+    .confirmation-container button {
+      margin-top: 25px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      border: none;
+      border-radius: 6px;
+      color: white;
+      cursor: pointer;
+    }
+
+    .confirmation-container button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="confirmation-container">
+    <h2>✅ Booking Confirmed!</h2>
+    <p id="confirmationText"></p>
+    <button onclick="goToDashboard()">Go to Dashboard</button>
+  </div>
+
+  <script>
+    function goToDashboard() {
+      window.location.href = "dashboard.html";
+    }
+
+    const bookingData = JSON.parse(localStorage.getItem("lastBooking"));
+
+    if (bookingData) {
+      const text = `
+        You booked Room #${bookingData.roomNumber} (${bookingData.roomType})<br>
+        From <strong>${bookingData.checkIn}</strong> to <strong>${bookingData.checkOut}</strong><br>
+        Total Price: ₹${bookingData.totalPrice}
+      `;
+      document.getElementById("confirmationText").innerHTML = text;
+      localStorage.removeItem("lastBooking");
+    } else {
+      document.getElementById("confirmationText").innerText = "Booking details not found.";
+    }
+  </script>
+<footer style="background:#212529; color:#ccc; text-align:center; padding:20px;">
+    &copy; 2025 Hotel Management System | Experience Luxury Living.
+  </footer>
+  
+</body>
+</html>

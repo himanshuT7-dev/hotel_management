@@ -1,0 +1,202 @@
+[
+  {
+    "roomNumber": "101",
+    "type": "Single",
+    "category": "Economy",
+    "pricePerNight": 1000,
+    "description": "A compact and cozy room perfect for solo travelers.",
+    "amenities": "Wi-Fi, AC, Smart TV",
+    "imageUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "102",
+    "type": "Single",
+    "category": "Standard",
+    "pricePerNight": 1100,
+    "description": "Well-furnished single room with city view.",
+    "amenities": "Wi-Fi, AC, Smart TV",
+    "imageUrl": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "103",
+    "type": "Double",
+    "category": "Standard",
+    "pricePerNight": 1500,
+    "description": "Comfortable double bed with workspace and window.",
+    "amenities": "Wi-Fi, AC, Smart TV, Workspace",
+    "imageUrl": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "104",
+    "type": "Double",
+    "category": "Premium",
+    "pricePerNight": 1800,
+    "description": "Spacious double room with modern interior and large balcony.",
+    "amenities": "Wi-Fi, AC, Smart TV, Balcony",
+    "imageUrl": "https://images.unsplash.com/photo-1600585153925-59475cc710a5",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "105",
+    "type": "Deluxe",
+    "category": "Executive",
+    "pricePerNight": 2500,
+    "description": "Luxury deluxe room with king-sized bed and lounge space.",
+    "amenities": "Wi-Fi, AC, Smart TV, Mini Fridge",
+    "imageUrl": "https://images.unsplash.com/photo-1604147706283-2de3c581b240",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "106",
+    "type": "Suite",
+    "category": "Presidential",
+    "pricePerNight": 5500,
+    "description": "Top-tier suite with private living room and butler service.",
+    "amenities": "Wi-Fi, AC, Smart TV, Living Room, Butler Service",
+    "imageUrl": "https://images.unsplash.com/photo-1582719478185-2a0b2d89890d",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "107",
+    "type": "Deluxe",
+    "category": "Premium",
+    "pricePerNight": 2700,
+    "description": "Deluxe room with garden view and modern lighting.",
+    "amenities": "Wi-Fi, AC, Smart TV, Garden View",
+    "imageUrl": "https://images.unsplash.com/photo-1560067174-8944d3c0f8bd",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "108",
+    "type": "Single",
+    "category": "Standard",
+    "pricePerNight": 950,
+    "description": "A cost-effective stay for solo visitors.",
+    "amenities": "Wi-Fi, AC",
+    "imageUrl": "https://images.unsplash.com/photo-1554995207-c18c203602cb",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "109",
+    "type": "Double",
+    "category": "Standard",
+    "pricePerNight": 1600,
+    "description": "Double room with ambient lighting and twin beds.",
+    "amenities": "Wi-Fi, AC, Smart TV",
+    "imageUrl": "https://images.unsplash.com/photo-1551907234-7193f6c5a9c4",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "110",
+    "type": "Suite",
+    "category": "Executive",
+    "pricePerNight": 4000,
+    "description": "Suite with private bar and luxury seating.",
+    "amenities": "Wi-Fi, AC, Smart TV, Private Bar",
+    "imageUrl": "https://images.unsplash.com/photo-1582719232491-4c88b3f6f031",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "111",
+    "type": "Double",
+    "category": "Economy",
+    "pricePerNight": 1200,
+    "description": "Simple double room with essentials.",
+    "amenities": "Wi-Fi, TV",
+    "imageUrl": "https://images.unsplash.com/photo-1600585153500-4d3c94b8e56b",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "112",
+    "type": "Deluxe",
+    "category": "Executive",
+    "pricePerNight": 2800,
+    "description": "Stylish deluxe room with extra work desk and minibar.",
+    "amenities": "Wi-Fi, AC, Smart TV, Work Desk",
+    "imageUrl": "https://images.unsplash.com/photo-1582719200984-5c4af576fd29",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "113",
+    "type": "Suite",
+    "category": "Presidential",
+    "pricePerNight": 6000,
+    "description": "Exclusive suite for VIP guests.",
+    "amenities": "Wi-Fi, AC, Jacuzzi, Smart TV, Concierge",
+    "imageUrl": "https://images.unsplash.com/photo-1590490360182-e1b52c96f6b2",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "114",
+    "type": "Single",
+    "category": "Economy",
+    "pricePerNight": 850,
+    "description": "Budget single room with high-speed internet.",
+    "amenities": "Wi-Fi",
+    "imageUrl": "https://images.unsplash.com/photo-1600585153852-5049ff4aade5",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "115",
+    "type": "Double",
+    "category": "Premium",
+    "pricePerNight": 2000,
+    "description": "Premium double room with extra amenities.",
+    "amenities": "Wi-Fi, AC, TV, Workspace",
+    "imageUrl": "https://images.unsplash.com/photo-1559599748-4304363d8b68",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "116",
+    "type": "Suite",
+    "category": "Executive",
+    "pricePerNight": 4500,
+    "description": "Elegant suite with extra-wide bed and glass bathroom.",
+    "amenities": "Wi-Fi, AC, Smart TV, Luxury Bath",
+    "imageUrl": "https://images.unsplash.com/photo-1600585153472-4b0be4a1a174",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "117",
+    "type": "Double",
+    "category": "Standard",
+    "pricePerNight": 1650,
+    "description": "Double room with wide balcony.",
+    "amenities": "Wi-Fi, AC, Smart TV, Balcony",
+    "imageUrl": "https://images.unsplash.com/photo-1595520296811-221d60c5e0d1",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "118",
+    "type": "Deluxe",
+    "category": "Premium",
+    "pricePerNight": 3000,
+    "description": "Premium deluxe room with coffee machine and sofa.",
+    "amenities": "Wi-Fi, AC, Sofa, Coffee Machine",
+    "imageUrl": "https://images.unsplash.com/photo-1582719324980-5287dba0fc1d",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "119",
+    "type": "Suite",
+    "category": "Presidential",
+    "pricePerNight": 7000,
+    "description": "Luxury suite with marble floor, private bar, and kitchen.",
+    "amenities": "Wi-Fi, AC, Kitchen, Private Bar",
+    "imageUrl": "https://images.unsplash.com/photo-1600585153880-5bdc68f39a53",
+    "isAvailable": true
+  },
+  {
+    "roomNumber": "120",
+    "type": "Single",
+    "category": "Economy",
+    "pricePerNight": 990,
+    "description": "Efficient single room with peaceful vibe.",
+    "amenities": "Wi-Fi, Desk",
+    "imageUrl": "https://images.unsplash.com/photo-1570129477492-45c003edd2be",
+    "isAvailable": true
+  }
+]

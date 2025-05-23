@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Welcome | Royal Retreat Hotel</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="components/navbar.js" defer></script>
+  <style>
+    /* Hero */
+    .hero {
+      height: 100vh;
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0,0,0,0.7)),
+url('https://images.pexels.com/photos/271619/pexels-photo-271619.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=900') no-repeat center center/cover;
+
+     display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      text-align: center;
+      padding: 0 40px;
+    }
+
+    .hero h1 {
+      font-size: 70px;
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .hero p {
+      font-size: 50px;
+      margin-bottom: 30px;
+      max-width: 700px;
+    }
+
+    .hero a {
+      background-color: #f5c518;
+      color: #000;
+      padding: 14px 32px;
+      font-size: 18px;
+      border-radius: 8px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: 0.3s ease;
+    }
+
+    .hero a:hover {
+      background-color: #e0b400;
+    }
+
+    /* Feature Section */
+    .features {
+      padding: 60px 20px;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      gap: 30px;
+      text-align: center;
+    }
+
+    .feature {
+      max-width: 300px;
+    }
+
+    .feature img {
+      width: 60px;
+      margin-bottom: 15px;
+    }
+
+    .feature h4 {
+      font-size: 20px;
+      color: #222;
+      margin-bottom: 10px;
+    }
+
+    .feature p {
+      color: #555;
+      font-size: 15px;
+    }
+
+    /* CTA Section */
+    .cta {
+      padding: 60px 40px;
+      text-align: center;
+      background-color: #f0f0f0;
+    }
+
+    .cta h2 {
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+
+    .cta a {
+      background-color: #007bff;
+      color: #fff;
+      padding: 12px 26px;
+      border-radius: 6px;
+      font-weight: 500;
+      font-size: 45px;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    .cta a:hover {
+      background-color: #0056b3;
+    }
+
+    @media screen and (max-width: 768px) {
+      .hero h1 { font-size: 46px; }
+      .hero p { font-size: 16px; }
+      .features { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Royal Retreat</h1>
+  <p>Indulge in timeless luxury and modern comfort. Your peaceful escape awaits in our world-class suites and personalized services.</p>
+  <a href="rooms.html">Explore Rooms</a>
+</section>
+
+<!-- Features -->
+<section class="features">
+  <div class="feature">
+    <img src="https://cdn-icons-png.flaticon.com/512/2329/2329125.png" alt="Wi-Fi" />
+    <h4>High-Speed Wi-Fi</h4>
+    <p>Stay connected seamlessly during your stay with complimentary Wi-Fi access.</p>
+  </div>
+  <div class="feature">
+    <img src="https://cdn-icons-png.flaticon.com/512/478/478543.png" alt="Room Service" />
+    <h4>24/7 Room Service</h4>
+    <p>Delicious meals delivered to your room day or night – just a call away.</p>
+  </div>
+  <div class="feature">
+    <img src="https://cdn-icons-png.flaticon.com/512/1076/1076928.png" alt="Pool & Spa" />
+    <h4>Pool & Spa</h4>
+    <p>Relax in our rooftop infinity pool and rejuvenate with luxurious spa treatments.</p>
+  </div>
+</section>
+
+<!-- CTA -->
+<!-- CTA -->
+<section class="cta" id="ctaSection">
+    <!-- Content will be injected dynamically -->
+  </section>
+  
+
+<!-- Footer -->
+<footer>
+  &copy; 2025 Royal Retreat Hotel. Crafted for serenity, styled for elegance.
+</footer>
+<script>
+    const username = sessionStorage.getItem("username");
+    const cta = document.getElementById("ctaSection");
+  
+    if (username) {
+      cta.innerHTML = `
+        <h2>Welcome back, <span style="color:#007bff">${username}</span>!</h2>
+        <p>Ready to manage your bookings or explore more rooms?</p>
+        <a href="dashboard.html" class="btn" style="margin-top: 10px;">Go to Dashboard</a>
+      `;
+    } else {
+      cta.innerHTML = `
+        <h2>Ready for an unforgettable stay?</h2>
+        <a href="index.html" class="btn" style="margin-top: 10px;">Login & Book Now</a>
+      `;
+    }
+  </script>
+  
+</body>
+</html>
